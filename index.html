@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Welcome User</title>
+  </head>
+  <body>
+    <time id="time"></time>
+    <h1>
+      <span id="greeting">Good Afternoon</span>
+      <span id="name" contenteditable="true"></span>
+    </h1>
+
+    <h2>What is your goal for today?</h2>
+    <h2 id="focus" contenteditable="true"></h2>
+
+    <div class="container">
+      <div>
+        <a href="#" class="arrow-left" onclick="myFunction()"></a>
+      </div>
+      <div class="btnVoice">
+        <button class="talk">Talk</button>
+        <h3 class="content"></h3>
+      </div>
+      <div>
+        <a href="#" class="arrow-right" onclick="myFunction1()"></a>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="./voice.js"></script>
+  </body>
+</html>
